@@ -1,0 +1,19 @@
+ul li {
+    list-style: none;
+    background-color: aqua;
+    width: 150px;
+    margin: 2px;
+    text-align: center;
+}
+
+ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+    line-height: 2rem;
+    background-color: red;
+}
+
+ul li a:hover {
+    background-color: whitesmoke;
+}

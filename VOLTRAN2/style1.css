@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #F63232;
+    text-align: center;
+    padding: 20px 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.başlık {
+    color: white;
+    border: 8px solid white;
+    display: inline-block;
+    border-color: white;
+    border-radius: 36px;
+    padding: 6px 12px;
+}
+
+.navbar1 {
+    background: #d48f8f;
+    padding: 10px;
+    position: sticky;
+}
+
+.navbar1 ul {
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.navbar1 ul li {
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 54px;
+    color: #F63232;
+}
+
+p {
+    font-size: 20px;
+    text-indent: 25px;
+}
+
+.main ul li img {
+    display: inline-block;
+    list-style-type: none;
+    width: 50%;
+    margin: 20px 5%;
+    position: relative;
+}

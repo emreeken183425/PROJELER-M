@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    color: whitesmoke;
+}
+
+body {
+    background-image: url(./background_image.jpg);
+}
+
+.main {
+    background: rgba(2, 5, 2, 0.5);
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+span {
+    color: red;
+}
+
+.form-kutu {
+    margin-left: 15px;
+}
+
+.footer {
+    text-align: center;
+    background: red;
+    width: 150px;
+    margin-left: 100px;
+}
