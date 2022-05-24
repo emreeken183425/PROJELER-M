@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#sayfa {
+    width: 100%;
+    min-height: 600px;
+    border-style: solid;
+    border: width 1px;
+    background-color: rgb(180, 44, 76);
+    margin: auto;
+}
+
+.banner {
+    height: 100px;
+    width: 100%;
+    border-style: 1px dashed;
+    background-color: white;
+    /*background-color: aqua;*/
+}
+
+.logo {
+    height: 80px;
+    width: 100px;
+    background-color: yellow;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    float: left;
+}
+
+.sosyal {
+    /*background-color: red;*/
+    width: 200px;
+    height: 50px;
+    float: right;
+    position: relative;
+    top: 30px;
+    right: 10px;
+    displ
+}
+
+.sosyal a img {
+    width: 60px;
+    height: 40px;
+}
+
+.sosyal a {
+    line-height: 40px;
+    float: left;
+    margin: 2px;
+}
+
+.ana_menü {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(101, 69, 198);
+}
+
+.ana_menü ul {
+    list-style-type: none;
+}
+
+.ana_menü ul li {
+    text-align: center;
+    width: 90px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: blue;
+    border-radius: 15px;
+    float: left;
+    padding: 5px;
+    margin-left: 10px;
+    position: relative;
+    top: 8px;
+    background-color: white;
+}
+
+.ana_menü ul li:hover {
+    background-color: aqua;
+}
+
+.ana_menü ul li a:hover {
+    background-color: red;
+    padding: 5px;
+}
+
+.içerik {
+    width: 60%;
+    min-height: 400px;
+    background-color: green;
+    float: left;
+}
+
+.içerik img {
+    float: left;
+    width: 200px;
+}
+
+.yan_menü {
+    width: 30%;
+    min-height: 400px;
+    background-color: red;
+    float: right;
+}
+
+p {
+    text-indent: 10px;
+}
+
+button {
+    padding: 10px;
+    margin: 10px 10px;
+    border-radius: 15px;
+    color: rgb(199, 64, 64);
+    background-color: wheat;
+}
+
+.alt_menü {
+    width: 100%;
+    height: 50px;
+    background-color: aquamarine;
+}
+
+.alt_menü a {
+    padding: 1rem;
+    position: relative;
+    top: 5px;
+}
+
+.alt_menü p {
+    float: right;
+}
