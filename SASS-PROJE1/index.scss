@@ -1,0 +1,82 @@
+nav {
+    background-color: aqua;
+    img {
+        width: 100px;
+        border: 1px solid red;
+        border-radius: 8px;
+    }
+    a {
+        text-decoration: none;
+        float: right;
+        margin-top: 25px;
+        padding: 1rem;
+    }
+}
+
+main {
+    background-color: rgb(131, 65, 65);
+    height: 250px;
+    section {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        article {
+            color: white;
+            h1 {}
+            p {}
+            div {
+                button {
+                    background-color: aqua;
+                }
+            }
+        }
+        img {
+            width: 200px;
+            height: 200px;
+        }
+    }
+}
+
+@mixin cards($bgcolor, $fontcolor) {
+    background-color: $bgcolor;
+    color: $fontcolor;
+    width: 200px;
+    height: 150px;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    .card1 {
+        @include cards(red, white);
+    }
+    .card2 {
+        @include cards(rgb(33, 227, 37), white)
+    }
+    .card3 {
+        @include cards(rgb(40, 24, 163), white)
+    }
+    .card4 {
+        @include cards(rgb(204, 211, 25), white)
+    }
+}
+
+.articles {
+    display: flex;
+    text-align: center;
+    .article1 {
+        background-color: red;
+        width: 50%;
+        height: 150px;
+        color: black;
+        margin: 1rem;
+    }
+    .article2 {
+        @extend .article1;
+        background-color: black;
+        color: white;
+    }
+}
