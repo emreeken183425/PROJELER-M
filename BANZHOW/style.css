@@ -13,3 +13,9 @@
 .dropdown-menu .dropdown-item{
     color: white;
 }
+.ara_bölüm{
+    height: 200px;
+}
+.card-img-overlay:hover{
+  background-color: rgb(240, 221, 221);
+}
