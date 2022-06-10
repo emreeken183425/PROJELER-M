@@ -17,5 +17,16 @@
     height: 200px;
 }
 .card-img-overlay:hover{
-  background-color: rgb(240, 221, 221);
+    background-color: rgb(31, 31, 31);
+    position: absolute;
+    z-index: 1;
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.card-body ul li{
+  float: left;
+  direction: ltr;
+  list-style-type: none;
+ margin-left: 0px;
 }
